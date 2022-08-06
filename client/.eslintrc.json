@@ -1,0 +1,6 @@
+{
+  "extends": "next/core-wen-vitals",
+  "rules": {
+    "@next/next/no-img-element": 0
+  }
+}
