@@ -24,7 +24,7 @@ app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, './client/out/'));
 });
 
-app.listen(5000, () => console.log('server listening on port 5000'));
+app.listen(4000, () => console.log('server listening on port 4000'));
 
 // Production Mode
 // if (process.env.NODE_ENV.toLowerCase() === 'production') {
